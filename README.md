@@ -7,7 +7,7 @@
 ## Installation Guide
 Please refer to the following documentation for installation:
 
-[Pandas](https://pandas.pydata.org/docs/getting_started/index.html),<br/>
+[Pandas](https://pandas.pydata.org/docs/getting_started/index.html)<br/>
 [Numpy](https://numpy.org/doc/)<br/>
 [Hvplot](https://hvplot.holoviz.org/)<br/>
 [Sklearn](https://scikit-learn.org/stable/install.html)<br/>
@@ -25,9 +25,9 @@ This application is written in Python. The following Python libraries were used:
 
 ---
 ## Contributors
-Alessandro Valentini,<br/>
-Quinn Stroube,<br/>
-David Contreras,<br/>
+Alessandro Valentini<br/>
+Quinn Stroube<br/>
+David Contreras<br/>
 Jerome Bright
 
 ---

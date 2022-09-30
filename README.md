@@ -11,11 +11,13 @@ This application is written in Python. The following Python libraries were used:
 
 ---
 ## Installation Guide
+Please refer to the following documentation for installation:
+
 [Pandas](https://pandas.pydata.org/docs/getting_started/index.html)
-
-
-
-
+[Numpy](https://numpy.org/doc/)
+[Hvplot](https://hvplot.holoviz.org/)
+[Sklearn](https://scikit-learn.org/stable/install.html)
+[Imblearn](https://imbalanced-learn.org/stable/install.html#getting-started)
 
 ---
 ## Usage
@@ -31,4 +33,3 @@ Jerome Bright
 ---
 ## License
 MIT
----

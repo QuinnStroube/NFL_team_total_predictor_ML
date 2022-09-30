@@ -5,11 +5,13 @@
 
 ---
 ## Technologies
+This application is written in Python. The following Python libraries were used:
 
 
 
 ---
 ## Installation Guide
+[Pandas](https://pandas.pydata.org/docs/getting_started/index.html)
 
 
 
@@ -21,9 +23,9 @@
 
 ---
 ## Contributors
-Alessandro Valentini
-Quinn Stroube
-David Contreras
+Alessandro Valentini,
+Quinn Stroube,
+David Contreras,
 Jerome Bright
 
 ---

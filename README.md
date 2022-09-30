@@ -1,4 +1,4 @@
-# NFL_team_total_predictor_ML
+# Texans_Win_Predictor_ML
 ---
 ## Project Summary
 
@@ -35,7 +35,7 @@ from sklearn import tree
 from sklearn.neighbors import KNeighborsClassifier
 ```
 ---
-## Usage
+## Results
 
 
 ---

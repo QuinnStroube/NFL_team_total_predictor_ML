@@ -7,6 +7,7 @@ We created an NFL win predictor for the Houston Texans, determining win totals f
 ## Database
 
 We pulled all the data from [Pro Football Reference](https://www.pro-football-reference.com/). We could also find all the data we pulled In the resources file in the repository. These CSV files contain the Texans game results from 2002 up to 2022.
+
 ---
 ## Installation Guide
 Please refer to the following documentation for installation:
@@ -41,9 +42,10 @@ from sklearn.neighbors import KNeighborsClassifier
 ---
 ## Model Results
 
-A total of 3 models were used to accomplish this project's objective. The first one used is the random forest model, which scored an accuracy score of 86%, which may be high; however, we believe too high to be correct. We believe there was insufficient data for the model to train with and put out an accurate score. We performed under sampling and oversampling for a random forest to improve anti-aliasing performance, increase resolution, and reduce noise. For under-sampling, we got an accuracy score of 80%, while for oversampling, the model got an accuracy score of 81%. This, again, might be due to not having more data for the models to train on. 
+A total of 3 models were used to accomplish this project's objective. The first one used is the random forest model, which scored an accuracy score of 95%, which may be high; however, we believe too high to be correct. We believe there was insufficient data for the model to train with and put out an accurate score. We performed under sampling and oversampling for a random forest to improve anti-aliasing performance, increase resolution, and reduce noise. For under-sampling, we got an accuracy score of 80%, while for oversampling, the model got an accuracy score of 81%. This, again, might be due to not having more data for the models to train on. 
 
-[Random_Forest](images/Random_forest_1.png)
+![Random_forest_1](https://user-images.githubusercontent.com/93929576/193492513-82c5d3b3-b6f9-4872-ab86-2570a76f9c03.png)
+
 
 We then move to use the decision tree model to predict the outcome. The model came out with high precision scores for losses and high recall scores for wins. Finally, the model came out with an accuracy score of 78% with the test data.
 

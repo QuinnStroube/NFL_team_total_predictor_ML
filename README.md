@@ -45,19 +45,17 @@ from sklearn.neighbors import KNeighborsClassifier
 A total of 3 models were used to accomplish this project's objective. The first one used is the random forest model, which scored an accuracy score of 95%, which may be high; however, we believe too high to be correct. We believe there was insufficient data for the model to train with and put out an accurate score. We performed under sampling and oversampling for a random forest to improve anti-aliasing performance, increase resolution, and reduce noise. For under-sampling, we got an accuracy score of 80%, while for oversampling, the model got an accuracy score of 81%. This, again, might be due to not having more data for the models to train on. 
 
 ![Random_forest_1](https://user-images.githubusercontent.com/93929576/193492513-82c5d3b3-b6f9-4872-ab86-2570a76f9c03.png)
+![Random_forest_over](https://user-images.githubusercontent.com/93929576/193493526-97d4077c-2fed-437d-8f13-be8bed96c929.png)
+![Random_forest_under](https://user-images.githubusercontent.com/93929576/193493571-6bf1fac2-5d6f-4354-858f-2cebf8943fe7.png)
 
 
 We then move to use the decision tree model to predict the outcome. The model came out with high precision scores for losses and high recall scores for wins. Finally, the model came out with an accuracy score of 78% with the test data.
 
-
-(Place the image of the mode outcome here)
+![decision_tree](https://user-images.githubusercontent.com/93929576/193493618-e32ca624-806d-4f0c-9619-27f90e244d4f.png)
 
 The last model we used was the SVM model using two different types of kernels radial basis function kernel (Rbf) and polynomial. The SVM RBF kernel performance showed an accuracy score of 71%, while the SVM polynomial kernel had an accuracy score of 68% with the test data. With this model seeming to be the best out of the three with the most accurate score percentage, we also wanted to test the new data with this model. It produced an accuracy score of 84%, with high precision and recall scores on predicting the losses.
 
-
-(Place the Image of the model outcome here)
-
-
+![svm](https://user-images.githubusercontent.com/93929576/193493659-97049456-eca7-49d1-b390-6229edc26880.png)
 
 ---
 ## Contributors

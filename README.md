@@ -42,7 +42,7 @@ from sklearn.neighbors import KNeighborsClassifier
 ---
 ## Model Results
 
-A total of 3 models were used to accomplish this project's objective. The first one used is the random forest model, which scored an accuracy score of 86%, which may be high; however, we believe too high to be correct. We believe there was insufficient data for the model to train with and put out an accurate score. We performed under sampling and oversampling for a random forest to improve anti-aliasing performance, increase resolution, and reduce noise. For under-sampling, we got an accuracy score of 80%, while for oversampling, the model got an accuracy score of 81%. This, again, might be due to not having more data for the models to train on. 
+A total of 3 models were used to accomplish this project's objective. The first one used is the random forest model, which scored an accuracy score of 95%, which may be high; however, we believe too high to be correct. We believe there was insufficient data for the model to train with and put out an accurate score. We performed under sampling and oversampling for a random forest to improve anti-aliasing performance, increase resolution, and reduce noise. For under-sampling, we got an accuracy score of 80%, while for oversampling, the model got an accuracy score of 81%. This, again, might be due to not having more data for the models to train on. 
 
 ![Random_forest_1](https://user-images.githubusercontent.com/93929576/193492513-82c5d3b3-b6f9-4872-ab86-2570a76f9c03.png)
 
